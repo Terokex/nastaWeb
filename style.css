@@ -285,6 +285,7 @@ body{
 } */
 .helpTextCell {
     display: flex;
+    height: 100%;
     flex-direction: column;
     padding-left: 1rem;
     padding-right: 1.5rem;
@@ -297,6 +298,42 @@ body{
     font-weight: bold;
 }
 .helpTextCellParagraph {
+    height: 100%;
     align-content: end;
-    font-size: 1.25rem;
+    font-size: 1.6rem;
+}
+
+/* ==========================
+   CONTACTS
+========================== */
+
+.contacts {
+    background-color: #3d3735;
+    padding-top: 30vh;
+    height: 80vh;
+}
+.contactsHeader {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-left: 1.5rem;
+}
+.contactsGridContainer {
+    width: 60%;
+    height: 40vh;
+    margin-left: 40%;
+    /* background-color: red; */
+}
+.contactsGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.contactsGridCell {
+    padding: 1rem;
+    /* border: white solid 1px; */
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.4rem;
 }
